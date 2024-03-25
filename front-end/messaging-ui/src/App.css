@@ -1,0 +1,16 @@
+.alert-dismissible {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between content and close button */
+    align-items: center; /* Center items vertically */
+    /* Other styling here */
+  }
+  
+  .error-message {
+    flex-grow: 1; /* Ensure the message takes up the available space */
+  }
+  
+  .close {
+    margin-left: auto; /* Push the close button to the right */
+    /* Other styling for the close button */
+  }
+  

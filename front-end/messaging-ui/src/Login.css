@@ -1,0 +1,29 @@
+/* Login.css */
+.split-screen {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-side {
+    flex: 1;
+    background-image: url('../public/image.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7; /* You can choose your background color */
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 320px; /* Set a max-width for the form */
+    padding: 20px;
+    background: #ffffff; /* Optional: to make the form stand out */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Optional: to add some shadow to the form */
+  }
